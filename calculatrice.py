@@ -19,10 +19,14 @@ def diviser(a, b):
     except ValueError as e:
         print(e)
 
+def carre(nombre):
+    return nombre * nombre
+
 if __name__ == "__main__":
     print("Addition      : 2 + 3 =", additionner(2, 3))
     print("Soustraction  : 10 - 4 =", soustraire(10, 4))
     print("Multiplication: 3 x 4 =", multiplier(3, 4))
     print("Division      : 10 / 2 =", diviser(10, 2))
     print("Division      : 10 / 0 =", diviser(10, 0))
+    print("Carre          :5 * 5 =",carre(5))
    
